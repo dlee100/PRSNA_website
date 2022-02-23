@@ -1,4 +1,4 @@
-### PRSNA Studio
+# PRSNA Studio
 This is the official repo for PRSNA Studio's business website/webapp.
 
 
