@@ -1,0 +1,207 @@
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --hunter-green: rgba(22, 22, 22, 1);
+    --masala: rgba(61, 61, 61, 1);
+    --gravel: rgba(75, 75, 75, 1);
+    --granite-gray: rgba(103, 103, 103, 1);
+    --silver-chalice: rgba(172, 172, 172, 1);
+    --mist-gray: rgba(196, 196, 196, 1);
+    --thunderbird: rgba(198, 24, 24, 1);
+    --cararra: rgba(236, 236, 236, 1);
+  
+    --font-size-xs: 10px;
+    --font-size-s: 11px;
+    --font-size-m: 15px;
+    --font-size-l: 20px;
+    --font-size-xl: 25px;
+    --font-size-xxl: 30px;
+    --font-size-xxxl: 40px;
+  
+    --font-family-nb_architekt-bold: "NB Architekt-Bold";
+    --font-family-nb_architekt-light: "NB Architekt-Light";
+    --font-family-nb_architekt-regular: "NB Architekt-Regular";
+  }
+  
+  /* Classes */
+  
+  .nbarchitekt-bold-cararra-40px {
+    color: var(--cararra);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-silver-chalice-30px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-granite-gray-40px {
+    color: var(--granite-gray);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-gravel-20px {
+    color: var(--gravel);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-cararra-15px {
+    color: var(--cararra);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-hunter-green-11px {
+    color: var(--hunter-green);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-cararra-25px {
+    color: var(--cararra);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-granite-gray-15px {
+    color: var(--granite-gray);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-light-gravel-15px {
+    color: var(--gravel);
+    font-family: var(--font-family-nb_architekt-light);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-silver-chalice-30px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-cararra-30px {
+    color: var(--cararra);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-hunter-green-15px {
+    color: var(--hunter-green);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-thunderbird-20px {
+    color: var(--thunderbird);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-silver-chalice-5px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: 5px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-silver-chalice-15px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-gravel-15px {
+    color: var(--gravel);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-masala-20px {
+    color: var(--masala);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .border-1px-silver-chalice {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--silver-chalice);
+  }
+  .nbarchitekt-regular-normal-gravel-25px {
+    color: var(--gravel);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-silver-chalice-15px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-thunderbird-10px {
+    color: var(--thunderbird);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nbarchitekt-bold-cararra-20px {
+    color: var(--cararra);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .border-2px-gravel {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--gravel);
+  }
+  .nbarchitekt-bold-silver-chalice-20px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nbarchitekt-light-gravel-10px {
+    color: var(--gravel);
+    font-family: var(--font-family-nb_architekt-light);
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .nbarchitekt-regular-normal-silver-chalice-20px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  

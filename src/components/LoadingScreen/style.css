@@ -1,0 +1,91 @@
+.prsnastudiowebsiteloadingscreendesktop {
+    align-items: center;
+    background-color: var(--hunter-green);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 291px 457px;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .prsna_-logo_loading-screen {
+    height: 43px;
+    width: 198px;
+  }
+  
+  .loading-bar {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    height: 22px;
+    margin-top: 20px;
+    min-width: 365px;
+  }
+  
+  .group-44 {
+    height: 14px;
+    margin-top: 2.0px;
+    width: 309px;
+  }
+  
+  .percent {
+    letter-spacing: 0;
+    margin-left: 10px;
+    min-height: 22px;
+    min-width: 46px;
+  }
+  
+  .place-container {
+    height: 33px;
+    margin-top: 20px;
+    position: relative;
+    width: 122px;
+  }
+  
+  .place {
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+  }
+  
+  .place-1 {
+    left: 1px;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: rotate(-180deg);
+  }
+  
+  
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+  
+  .screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+  
