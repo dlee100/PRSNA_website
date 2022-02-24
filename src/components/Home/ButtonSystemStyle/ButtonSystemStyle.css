@@ -1,0 +1,48 @@
+.button-system-style {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-right: 1.78px;
+  margin-top: 30px;
+  min-width: 160px;
+}
+
+.overlap-group {
+  align-items: flex-end;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62168b2382c644a9b4c291fd/releases/6216e2cfb8e024ef766187b8/img/union-3@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 43px;
+  justify-content: flex-end;
+  margin-top: -0.2px;
+  min-width: 161px;
+  padding: 13.6px 35.5px;
+}
+
+.learn-more {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 89px;
+}
+
+.button-system-style.button-style-2 {
+  margin-left: 1.22px;
+  margin-right: unset;
+}
+
+.button-system-style.button-style-1 {
+  align-self: center;
+  height: 43px;
+  margin-left: 22px;
+  margin-right: unset;
+  margin-top: 7.47px;
+}
+
+.button-system-style.button-style-1 .overlap-group {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62168b2382c644a9b4c291fd/releases/6216e2cfb8e024ef766187b8/img/union-5@2x.svg);
+  height: 44px;
+  margin-top: -0.7px;
+  padding: 14.1px 35.5px;
+}
+

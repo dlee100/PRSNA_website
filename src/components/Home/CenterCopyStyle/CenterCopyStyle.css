@@ -1,0 +1,45 @@
+.center-copy-style {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 346px;
+  min-height: 383px;
+  padding: 70px 289px;
+  position: absolute;
+  top: 790px;
+  width: 1281px;
+}
+
+.system-divider {
+  height: 18px;
+  margin-right: 1.0px;
+  width: 520px;
+}
+
+.we-strive-to-bridge {
+  align-self: flex-start;
+  color: transparent;
+  font-family: var(--font-family-nb_architekt-bold);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 30px;
+  min-height: 147px;
+  text-align: center;
+  width: 701px;
+}
+
+.span1-1 {
+  color: var(--gravel);
+  font-family: var(--font-family-nb_architekt-regular);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+}
+
+.system-divider-1 {
+  height: 18px;
+  margin-right: 1.0px;
+  margin-top: 30px;
+  width: 520px;
+}
+

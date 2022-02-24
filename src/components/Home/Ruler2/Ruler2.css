@@ -1,0 +1,24 @@
+.ruler-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 163px;
+  left: 967px;
+  min-width: 84px;
+  position: absolute;
+  top: 481px;
+}
+
+.union {
+  height: 163px;
+  margin-top: 0;
+  width: 46px;
+}
+
+.x2022 {
+  align-self: center;
+  height: 7px;
+  margin-left: 10px;
+  margin-top: 0;
+  width: 28px;
+}
+

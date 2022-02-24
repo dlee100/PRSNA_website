@@ -1,0 +1,66 @@
+:root { 
+    --black: #000000;
+    --cararra: #ececec;
+    --gravel: #4b4b4b;
+    --hunter-green: #161616;
+    --silver-chalice: #acacac;
+   
+    --font-size-l2: 20px;
+    --font-size-l22: 40px;
+    --font-size-m2: 15px;
+    --font-size-s2: 10px;
+    --font-size-xl: 25px;
+    --font-size-xxl: 30px;
+   
+    --font-family-nb_architekt-bold: "NB Architekt-Bold", Helvetica;
+    --font-family-nb_architekt-light: "NB Architekt-Light", Helvetica;
+    --font-family-nb_architekt-regular: "NB Architekt-Regular", Helvetica;
+  }
+  .nbarchitekt-regular-normal-silver-chalice-15px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-nb_architekt-regular);
+    font-size: var(--font-size-m2);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .nbarchitekt-bold-cararra-40px {
+    color: var(--cararra);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-l22);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .nbarchitekt-bold-cararra-30px {
+    color: var(--cararra);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .nbarchitekt-bold-hunter-green-15px {
+    color: var(--hunter-green);
+    font-family: var(--font-family-nb_architekt-bold);
+    font-size: var(--font-size-m2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .nbarchitekt-light-gravel-10px {
+    color: var(--gravel);
+    font-family: var(--font-family-nb_architekt-light);
+    font-size: var(--font-size-s2);
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  .border-3px-gravel {
+    border: 3px solid var(--gravel);
+  }
+  
+  .border-1px-silver-chalice {
+    border: 1px solid var(--silver-chalice);
+  }
+  

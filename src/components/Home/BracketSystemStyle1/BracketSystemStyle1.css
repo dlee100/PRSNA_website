@@ -1,0 +1,43 @@
+.bracket-system-style-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 81.0px;
+  min-height: 413px;
+  transform: rotate(180deg);
+  width: 42px;
+}
+
+.group-79 {
+  height: 70px;
+  margin-right: 9.84px;
+  transform: rotate(-180deg);
+  width: 10px;
+}
+
+.overlap-group1 {
+  height: 342px;
+  margin-left: 0;
+  margin-top: 2px;
+  position: relative;
+  width: 44px;
+}
+
+.vector-111 {
+  height: 342px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 44px;
+}
+
+.union-1 {
+  height: 13px;
+  left: 20px;
+  position: absolute;
+  top: 296px;
+  transform: rotate(-180deg);
+  width: 14px;
+}
+

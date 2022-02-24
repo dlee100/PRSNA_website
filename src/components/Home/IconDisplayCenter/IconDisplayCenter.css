@@ -1,0 +1,32 @@
+.icon-display-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 433px;
+  padding: 70px 110px;
+  position: relative;
+  width: 1281px;
+}
+
+.passed-projects {
+  letter-spacing: 0;
+  margin-right: 3.0px;
+  min-height: 30px;
+  min-width: 262px;
+  text-align: center;
+}
+
+.flex-row {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 30px;
+  min-width: 1060px;
+  position: relative;
+}
+
+.large-icon-border {
+  height: 160px;
+  width: 160px;
+}
+

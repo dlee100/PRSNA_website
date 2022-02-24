@@ -1,0 +1,127 @@
+.container-center-horizontal {
+  width: 100%;
+}
+
+.main-landing-page-desktop {
+  align-items: flex-start;
+  background-color: var(--hunter-green);
+  display: flex;
+  flex-direction: column;
+  height: 3002px;
+  position: relative;
+  width: 1281px;
+}
+
+.overlap-group4 {
+  height: 1953px;
+  margin-left: -345.45px;
+  position: relative;
+  width: 1972px;
+}
+
+.background-grid {
+  height: 1237px;
+  left: 0;
+  position: absolute;
+  top: 304px;
+  width: 1972px;
+}
+
+.prsna_-logo_-full-color {
+  height: 34px;
+  left: 455px;
+  position: absolute;
+  top: 67px;
+  width: 160px;
+}
+
+.ruler {
+  height: 106px;
+  left: 973px;
+  position: absolute;
+  top: 50px;
+  width: 24px;
+}
+
+.evolve-your-brand-an {
+  color: transparent;
+  font-family: var(--font-family-nb_architekt-bold);
+  font-size: var(--font-size-l22);
+  font-weight: 700;
+  left: 635px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 327px;
+  width: 700px;
+}
+
+.span1 {
+  color: var(--gravel);
+}
+
+.into-web-3 {
+  left: 869px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 367px;
+  transform: rotate(-180deg);
+}
+
+.evolve {
+  left: 637px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 327px;
+  transform: rotate(-180deg);
+}
+
+.text-matrix {
+  height: 67px;
+  left: 455px;
+  position: absolute;
+  top: 121px;
+  width: 160px;
+}
+
+.homepage-view-hub-asset {
+  height: 720px;
+  left: 345px;
+  position: absolute;
+  top: 0;
+  width: 1281px;
+}
+
+.about {
+  left: 1448px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 84px;
+}
+
+.services {
+  left: 1448px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 110px;
+}
+
+.work {
+  left: 1448px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 136px;
+}
+
+.web-3 {
+  left: 1448px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 162px;
+}
+
+.about:hover, .services:hover, .work:hover, .web-3:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
