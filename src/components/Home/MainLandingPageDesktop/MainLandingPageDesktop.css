@@ -125,3 +125,6 @@
   transform: scale(1.2);
 }
 
+.evolve-your-brand-an, .into-web-3, .evolve {
+  z-index: 2;
+}

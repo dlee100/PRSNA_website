@@ -157,3 +157,7 @@
   cursor: pointer;
   transform: scale(1.2);
 }
+
+.x2022-prsna-studio-l, .prsna-studio-llc {
+  z-index: 2;
+}
