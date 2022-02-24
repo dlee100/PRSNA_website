@@ -3,13 +3,12 @@ import ButtonSystemStyle from "../ButtonSystemStyle";
 import "./CallToActionCenter.css";
 
 function CallToActionCenter(props) {
-  const { readyToEvolveYour, buttonSystemStyleProps } = props;
 
   return (
     <div className="call-to-action-center">
       <div className="overlap-group3">
         <div className="flex-col-1">
-          <div className="ready-to-evolve-your">{readyToEvolveYour}</div>
+          <div className="ready-to-evolve-your"><>ready to evolve your business?<br />We’re ready to help-</></div>
           <div className="vector-container">
             <img
               alt="img"
@@ -55,7 +54,7 @@ function CallToActionCenter(props) {
             src="https://anima-uploads.s3.amazonaws.com/projects/62168b2382c644a9b4c291fd/releases/6216e2cfb8e024ef766187b8/img/union-6@2x.svg"
           />
         </div>
-        <ButtonSystemStyle learnMore={buttonSystemStyleProps.learnMore} className={buttonSystemStyleProps.className} />
+        <ButtonSystemStyle learnMore="let’s talk" className="button-style-1" />
       </div>
     </div>
   );

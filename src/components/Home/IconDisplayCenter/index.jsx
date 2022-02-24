@@ -3,12 +3,11 @@ import Rectangle46 from "../Rectangle46";
 import ButtonSystemStyle from "../ButtonSystemStyle";
 import "./IconDisplayCenter.css";
 
-function IconDisplayCenter(props) {
-  const { passedProjects, buttonSystemStyleProps } = props;
+function IconDisplayCenter() {
 
   return (
     <div className="icon-display-center">
-      <div className="passed-projects nbarchitekt-bold-cararra-30px">{passedProjects}</div>
+      <div className="passed-projects nbarchitekt-bold-cararra-30px">Passed projects</div>
       <div className="flex-row">
         <img
           alt="img"
@@ -21,7 +20,7 @@ function IconDisplayCenter(props) {
         <Rectangle46 />
         <Rectangle46 />
       </div>
-      <ButtonSystemStyle learnMore={buttonSystemStyleProps.learnMore} className={buttonSystemStyleProps.className} />
+      <ButtonSystemStyle learnMore="check out" className="button-style-2" />
     </div>
   );
 }

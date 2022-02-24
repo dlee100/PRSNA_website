@@ -2,8 +2,7 @@ import React from "react";
 import Rectangle31 from "../Rectangle31";
 import "./Footer.css";
 
-function Footer(props) {
-  const { evolveYourBrandAn, about, services, work, web3, place, x2022PrsnaStudioL, prsnaStudioLlc } = props;
+function Footer() {
 
   return (
     <div className="footer">
@@ -14,7 +13,7 @@ function Footer(props) {
             className="prsna_-logo_-full-color-1"
             src="https://anima-uploads.s3.amazonaws.com/projects/62168b2382c644a9b4c291fd/releases/6216e2cfb8e024ef766187b8/img/prsna-logo-full-color-1@2x.svg"
           />
-          <div className="evolve-your-brand-an-1">{evolveYourBrandAn}</div>
+          <div className="evolve-your-brand-an-1">Evolve Your Brand</div>
           <div className="group-68">
             <img
               alt="img"
@@ -34,11 +33,11 @@ function Footer(props) {
           </div>
         </div>
         <div className="flex-col-3 nbarchitekt-regular-normal-silver-chalice-15px">
-          <div className="about-1">{about}</div>
-          <div className="services-1">{services}</div>
-          <div className="work-1">{work}</div>
-          <div className="web-3-1">{web3}</div>
-          <div className="contact">{place}</div>
+          <div className="about-1">about</div>
+          <div className="services-1">services</div>
+          <div className="work-1">work</div>
+          <div className="web-3-1">web3</div>
+          <div className="contact">contact</div>
           <div className="flex-row-2">
             <img
               alt="img"
@@ -51,8 +50,8 @@ function Footer(props) {
         </div>
       </div>
       <div className="overlap-group-2 nbarchitekt-light-gravel-10px">
-        <p className="x2022-prsna-studio-l">{x2022PrsnaStudioL}</p>
-        <div className="prsna-studio-llc">{prsnaStudioLlc}</div>
+        <p className="x2022-prsna-studio-l">©2022 prsna studio llc. All rights reserved.</p>
+        <div className="prsna-studio-llc">prsna studio llc</div>
         <img
           alt="img"
           className="divider-bar"
