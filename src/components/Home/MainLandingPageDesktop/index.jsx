@@ -5,6 +5,7 @@ import LargeImageCenter from "../LargeImageCenter";
 import IconDisplayCenter from "../IconDisplayCenter";
 import CallToActionCenter from "../CallToActionCenter";
 import Footer from "../Footer";
+import "./styleguide.css"
 import "./MainLandingPageDesktop.css";
 
 function MainLandingPageDesktop(props) {
