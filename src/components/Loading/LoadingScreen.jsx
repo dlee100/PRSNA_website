@@ -25,7 +25,8 @@ const LoadingScreen = () => {
             <motion.img layout
               animate={{ width: "80%" }}
               transition={ { duration: 5 }}
-              className="group-44"  
+              className="group-44"
+              alt="loading-bar"  
               src="https://anima-uploads.s3.amazonaws.com/projects/6215578908245f0a14cf0140/releases/62155a0fd98caca3fa3450ab/img/group-44-2@2x.png" 
               />
             <div className="percent nbarchitekt-regular-normal-thunderbird-20px" >
