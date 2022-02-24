@@ -1,3 +1,14 @@
+# PRSNA Studio
+
+For a reproducable environment ...
+
+Clone the repo and then run:
+`npm ci`
+`npm start`
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
