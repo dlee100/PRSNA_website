@@ -1,6 +1,11 @@
 import React from "react";
 import "./CenterCopyStyle.css";
 
+// Assets
+import divider1 from "../../../assets/img/system-divider@1x.svg";
+import divider2 from "../../../assets/img/system-divider@2x.svg";
+
+
 function CenterCopyStyle(props) {
 
   return (
@@ -8,7 +13,7 @@ function CenterCopyStyle(props) {
       <img
         alt="img"
         className="system-divider"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62168b2382c644a9b4c291fd/releases/6216e2cfb8e024ef766187b8/img/system-divider@1x.svg"
+        src={divider1}
       />
       <div className="we-strive-to-bridge">
         <span className="nbarchitekt-bold-cararra-30px"><>we strive to<br /></></span>
@@ -17,7 +22,7 @@ function CenterCopyStyle(props) {
       <img
         alt="img"
         className="system-divider-1"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62168b2382c644a9b4c291fd/releases/6216e2cfb8e024ef766187b8/img/system-divider-1@1x.svg"
+        src={divider2}
       />
     </div>
   );

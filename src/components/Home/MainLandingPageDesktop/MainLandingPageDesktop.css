@@ -90,6 +90,16 @@
   position: absolute;
   top: 0;
   width: 1281px;
+
+  /* for 1280 x 950
+  height: 37%;
+  width: 65%; 
+  left: 345px;
+  */
+
+  left: 345px;
+  position: absolute;
+  top: 0;
 }
 
 .about {
