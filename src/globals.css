@@ -1,6 +1,12 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
+@font-face {
+  font-family: 'nb_architekt';
+  src: url(assets/fonts/NB_Architekt_Neue_Bold.otf);
+}
+
 .screen a {
+  font-family: 'nb_architekt', sans-serif;
   display: contents;
   text-decoration: none;
 }
